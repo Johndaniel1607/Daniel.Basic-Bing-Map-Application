@@ -1,0 +1,13 @@
+﻿<Window x:Class="Daniel.BasicBingMapApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Daniel.BasicBingMapApplication"
+        mc:Ignorable="d"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="CXF0wtL6L9wZZsHxlru5~HEXVA0qA4Ian_pOezeez0w~Av9hR2FiF-jxQPbN6xisIH_vzot-k8oh9TFYd-Qw6SQ1cNziy8bT4DJpQgRvmjcN" Mode="Aerial"/>
+    </Grid>
+</Window>
